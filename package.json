@@ -1,6 +1,6 @@
 {
   "name": "prometheus-btc-price-exporter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Fetches price information from Kraken and exports it to Prometheus format",
   "main": "index.js",
   "scripts": {
