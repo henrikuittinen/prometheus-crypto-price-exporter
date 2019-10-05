@@ -1,7 +1,8 @@
 FROM node as builder
 WORKDIR /usr/src/app
 COPY index.js .
-RUN npm install express --save
+COPY package.json .
+RUN npm install
 
 FROM node:alpine
 USER node
